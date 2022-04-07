@@ -1,0 +1,9 @@
+*.webm
+*.mp4
+/*
+!.gitignore
+!/cppFuncLib
+!/matFuncLib
+!/pyFuncLib
+/pyFuncLib/.vscode/*
+/pyFuncLib/__pycache__/*
