@@ -3,6 +3,7 @@
 /*
 !.gitignore
 !/cppFuncLib
+/cppFuncLib/Video\ Courses/*
 !/matFuncLib
 !/pyFuncLib
 /pyFuncLib/.vscode/*
