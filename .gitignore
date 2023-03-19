@@ -1,5 +1,6 @@
 *.webm
 *.mp4
+*.DS_Store
 
 /*
 !.gitignore
