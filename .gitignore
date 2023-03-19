@@ -15,4 +15,4 @@
 /texEnvLib/*.gz
 /texEnvLib/*.xdv
 /texEnvLib/*.log
-/texEnvLib/*.fdb_latemk
+/texEnvLib/*.fdb_latexmk
