@@ -1,5 +1,6 @@
 *.webm
 *.mp4
+
 /*
 !.gitignore
 !/cppFuncLib
@@ -8,3 +9,10 @@
 !/pyFuncLib
 /pyFuncLib/.vscode/*
 /pyFuncLib/__pycache__/*
+!/texEnvLib
+/texEnvLib/*.aux
+/texEnvLib/*.fls
+/texEnvLib/*.gz
+/texEnvLib/*.xdv
+/texEnvLib/*.log
+/texEnvLib/*.fdb_latemk

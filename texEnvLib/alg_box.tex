@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+
+\usepackage{xcolor}
+\usepackage[many]{tcolorbox}
+\newtcolorbox{boxD}{
+    arc = 0mm,
+    boxrule = 0pt, 
+    toprule = 1.2pt, % top rule weight
+    bottomrule = 1pt, % bottom rule weight
+    colframe = black, % frame color
+    colback = white,
+}
+
+
+\begin{document}
+
+\begin{boxD}
+
+{\large\textbf{TO-CBF-MPC:}}
+\begin{subequations}
+    \begin{align}
+        \mathop{\arg\min}_{u\in\mathcal{U},x\in\mathcal{X},\Delta t}& J = \lambda_1 T_1^2 + \lambda_2 \epsilon^2\\
+         s.t.~ & T_1 = N\cdot \Delta t\\
+         & x_{i+1} = f(x_i) + g(x_i)u_i\Delta t,~ i\in [0,N-1]\\
+         & u_{min}<u<u_{max}\label{eq.time1_u}\\
+         & v_{min}<v<v_{max}\label{eq.time1_v}\\
+         & \Delta t\leq t_{max}\label{eq.time1_t}\\
+         & x_N-x_g\geq \epsilon ~\text{or}~ (x_N-x_g' \leq -\epsilon)\label{eq.time1_goal}\\
+         & y_N > w/2\label{eq.time1_y}\\
+         & \dot{h_{ef}}(\mathbf{x},u)\geq -\alpha h_{ef}(\mathbf{x}),\label{eq.time1_cbf}
+    \end{align}
+    \label{eq.time1}
+\end{subequations}
+\end{boxD}
+
+\end{document}
