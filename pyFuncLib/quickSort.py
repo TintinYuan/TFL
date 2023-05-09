@@ -1,3 +1,4 @@
+# Created by Dingran Yuan
 def quickSort(arr):
     '''
     Perform the quick sort to a list of numbers
