@@ -11,7 +11,7 @@ This is a simple `Python` script for figure concatenation.
 - Two background paddings: `b`, `w` -> **black**, **white** (`w` by default)
 - Adjustable image directory: (`./` by default )
 ## Usage
-Open terminal app under the current working directory of `picCat.py`, and run program using the following command
+Open terminal app under the current working directory of `picCat.py`. And run the program using the following command
 ```bash
 ./picCat.py <alignment> <padding> <directory> 
 ```
